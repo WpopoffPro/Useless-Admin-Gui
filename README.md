@@ -6,6 +6,6 @@ Basically an simple gui with multiple features.
 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 ```
 
-# Developer
+## Developer
 
-### WpopoffPro (Creator of Useless Admin Gui
+### Creator: WpopoffPro
