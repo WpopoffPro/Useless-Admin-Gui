@@ -4,4 +4,4 @@ end
 function CreateFile(f,d)
 	if not isfile(f) then writefile(f,d) repeat task.wait() until isfile(f) end 
 end
-CreateFolder(UselessAdminGui)
+CreateFolder("UselessAdminGui")
