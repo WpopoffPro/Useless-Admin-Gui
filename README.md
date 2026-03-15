@@ -3,8 +3,10 @@
 Basically an simple gui with multiple features.
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+loadstring(game:HttpGet(""))()
 ```
+
+_It's still heavy W.I.P_
 
 ## Developer
 
