@@ -1,7 +1,4 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-local Tab = Window:CreateTab("TestTab", 4483362458) -- Title, Image
-local Section = Tab:CreateSection("SectionTest")
-local Divider = Tab:CreateDivider()
 local Window = Rayfield:CreateWindow({
    Name = "Rayfield Test",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
@@ -38,5 +35,3 @@ local Window = Rayfield:CreateWindow({
       Key = {"Hello"} -- List of keys that the system will accept, can be RAW file links (pastebin, github, etc.) or simple strings ("hello", "key22")
    }
 })
-
-Rayfield.LoadConfiguration()
