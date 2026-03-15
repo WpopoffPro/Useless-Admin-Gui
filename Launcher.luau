@@ -1,3 +1,15 @@
+-- Using NexerHub's script because i don't know how to script lmao but credit to Nexer1234!!
+
+local RequiredUserID = 
+
+function IsFollowedTo(userid)
+
+local function vaild_url(which, cursor)
+local qqz = which, 1
+local zzx = (cursor and "&cursor="..cursor.."") or "&cursor="
+if qqz == 1 then
+return "https://friends.roblox.com/v1/users/"
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Rayfield Test",
